@@ -1,0 +1,241 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-decoration:none;
+	
+}
+.dp{
+	display: none;
+}
+
+
+.position{
+	position: absolute;
+	top:21%;
+}
+.background{
+	background-color: white;
+	height: 120vh;
+}
+.text-position{
+	position: relative;
+/*	top: 10px;
+	left: 24px; */
+}
+.header-margin{
+	margin-bottom: 160px;
+} 
+
+.align{
+	text-align: center;
+}
+
+.text{
+	width: 500px;
+	font-size:1.9033674963396778vw;
+	
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 23px;
+	position: relative;
+	
+}
+.form-container{
+	background-color: #fff;
+	padding: 18px;
+	border-radius: 7px;
+	box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	box-sizing: border-box;
+	width: 67%;
+	
+/*	position: relative;
+	top: -42px;
+	left: 178px;
+*/	
+}
+::placeholder {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.forgotten{
+	font-size: 14.3px;
+	font-weight: 600px;
+}
+.extra{
+	line-height: 2.3;
+	border-radius: 0.42rem;
+}
+.font-category{
+	
+	font-family: 'Roboto', sans-serif;
+}
+.font-category2{
+	font-family: 'Open Sans', sans-serif;
+}
+.below-text{
+/*	margin-top: -38px;
+	margin-left: 226px; */
+	font-size: 15px;
+
+		
+}
+.below-text a{
+	color: black;
+	font-weight: 600;
+
+}
+
+/* ----------
+	footer section start
+   ---------- */	
+.footer-height{
+	height: 13px;
+}
+  
+   
+.m-class{
+	margin-top: -10px;
+}
+.u-list a,.u-list2 a{
+	color: #385898;
+}
+.english{
+	color: #737373;
+}   
+   
+.u-list li{
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 6px;
+	font-size: 12px;
+	margin-top: 2px;
+}   
+.plus{
+	position:relative;
+	top: -3px;
+	left: -2px;
+	font-size: 14px;
+	color: #626978;
+	
+}
+.box{
+	position:relative;
+	top:5px;
+	left:8px;
+	height:20px;
+	line-height: 18px;
+	width:28px;
+	background-color: #EBEDF0;
+}
+
+
+.u-list2{
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1.6;
+	margin-left: -5px;
+	
+	
+}
+.u-list3{
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.u-list2 li{
+	display: inline-block;
+	padding-top: -10px;
+	padding: 0px;
+	padding-bottom: 0px;
+	padding-right: 21px;
+	font-size: 12px;
+}
+
+.footer{
+	font-size: 11px;
+	color: #737373;
+	margin-left: 60px;
+}  
+
+/* ---------- Responsive Design Start --------- */
+
+@media screen and (max-width: 991px){
+
+.position{
+	position: absolute;
+	top:12%;
+}
+.background{
+	background-color: white;
+	
+	height: 140vh;
+}	
+.text{
+	width: 350px;
+	font-size:20px;
+	
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: -10px;
+	position: relative;
+	
+}
+.dpa{
+	display: none;
+}	
+	
+}
+.footer-text2{
+	font-size:11px;
+	color: #808080;
+	margin-left: 34px;
+}
+/* ------ Android Version ------- */
+
+
+@media screen and (max-width: 564px){
+
+
+.icon-margin{
+	margin-left: 70px;
+}
+.position{
+	position: absolute;
+	top:12%;
+	
+}
+.background{
+	background-color: white;
+	height: 90vh;
+}
+.footer-text1 li{
+	font-size: 12px;
+	color: #8AACD4;
+}
+.footer-text2{
+	font-size:11px;
+	color: #808080;
+	margin-left: 34px;
+}
+.below-text{
+/*	margin-top: -38px;
+	margin-left: 226px; */
+	font-size: 15px;
+	width: 100%;
+		
+}
+
+} 
+	
+	
+	
+	
+
